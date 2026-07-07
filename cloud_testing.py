@@ -61,9 +61,9 @@ METADATA_TIMEOUT = float(os.getenv("METADATA_TIMEOUT", 1.5))  # seconds
 # Email
 SMTP_SERVER = os.getenv("SMTP_SERVER", "smtp.gmail.com")
 SMTP_PORT = int(os.getenv("SMTP_PORT", 587))
-SMTP_USER = os.getenv("SMTP_USER", "imrealaryanjain@gmail.com")
-SMTP_PASSWORD = os.getenv("SMTP_PASSWORD", "szcb yzsv qrke rebo")
-ALERT_EMAIL_TO = os.getenv("ALERT_EMAIL_TO", "pulkitkhatter13@gmail.com,jaind5611@gmail.com,aryanakmtdjain2001@gmail.com")
+SMTP_USER = os.getenv("SMTP_USER", "Enter email ID from which you wish to send emails")
+SMTP_PASSWORD = os.getenv("SMTP_PASSWORD", "Enter Gmail App Password refer this to generate it : https://youtu.be/ECi_9BiBUug ")
+ALERT_EMAIL_TO = os.getenv("ALERT_EMAIL_TO", "gmailid1,gmailid2,gmailid3")
 
 # Slack / Teams
 SLACK_WEBHOOK_URL = os.getenv("SLACK_WEBHOOK_URL", "")
